@@ -1,109 +1,32 @@
-## Will Jekyll Template
+# About
 
-![Screenshot](screenshot.png)
+This is my blog based on jekyll. And I change the style and interactive. If you want to use this model of the blog. **Please give a star at this repository**. Then you can clone it as your blog model.
 
-This is a simple and minimalist template for Jekyll designed for developers that want to write blog posts but don't want to care about frontend stuff.
+You can visit [here](http://gaohaoyang.github.io) to see this blog.
 
-The Theme features:
-
-- Gulp
-- Stylus (Jeet, Rupture, Kouto Swiss)
-- Smoothscroll
-- Live Search
-- Offcanvas Menu
-- SVG icons
-- Very very small and fast!
-- Shell Script to create posts
-- Tags page
-- Series page
-- About Me page
-- Feed RSS
-- Sitemap.xml
-- Color Customization
-- Info Customization
-
-## Basic Setup
-
-1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Will Jekyll Template](https://github.com/willianjusten/will-jekyll-template/fork)
-3. Clone the repo you just forked.
-4. Edit `_config.yml` to personalize your site.
-5. Check out the sample posts in `_posts` to see examples for assigning categories and tags, and other YAML data.
-6. Read the documentation below for further customization pointers and documentation.
-
-## Site and User Settings
-
-You have to fill some informations on `_config.yml` to customize your site.
-
-```
-# Site settings
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site 
-
-# User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
-```
-
-## Color customization
-
-All color variables are in `src/styl/variable`. To change the main color, just set the new value at `main` assignment. Another colors are for texts and the code background color.
-
-## Creating posts
-
-You can use the `initpost.sh` to create your new posts. Just follow the command:
-
-```
-./initpost.sh -c Post Title
-```
-
-The new file will be created at `_posts` with this format `date-title.md`.
-
-## Front-matter 
-
-When you create a new post, you need to fill the post information in the front-matter, follow this example:
-
-```
 ---
-layout: post
-title: "How to use"
-date: 2015-08-03 03:32:44
-image: '/assets/img/post-image.png'
-description: 'First steps to use this template'
-tags:
-- jekyll 
-- template 
-categories:
-- I love Jekyll
-twitter_text: 'How to install and use this template'
----
-```
 
-## Running the blog in local
+这是我的博客，基于 jekyll。我改了所有默认的样式和交互。如果你想使用这个博客模板。**请先在这个仓库上点个star吧**，这也是对我的肯定和鼓励，谢谢了。然后你可以克隆这个仓库用作你自己的博客。
 
-In order to compile the assets and run Jekyll on local you need to follow those steps:
+博客访问地址：[点击这里](http://gaohaoyang.github.io)
 
-- Install [NodeJS](https://nodejs.org/)
-- Run `npm install` 
-- Run `gulp`
+**使用时请注明模板来源:  Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
 
-## Questions
+<!--
 
-Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@willian_justen](https://twitter.com/willian_justen) or file a [GitHub Issue](https://github.com/willianjusten/will-jekyll-template/issues/new).
+## 被引用信息
 
-## License
+使用了我的模板并写明来源的人：   
 
-This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
+* [dreamholy](http://dreamholy.github.io/)
 
-If you’d like to give me credit somewhere on your blog or tweet a shout out to [@willian_justen](https://twitter.com/willian_justen), that would be pretty sweet.
+没有注明来源的人：
+
+* [yangshuailing](http://yangshuailing.github.io/com/)
+* [huapu728](http://huapu728.github.io/)
+* [greatbuger](http://greatbuger.github.io/) 
 
 
+-->
 
 
